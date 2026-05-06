@@ -1,8 +1,9 @@
+import Banner from "../layouts/Banner"
 
 const Home = () => {
   return (
     <>
-      <h1>Home</h1>
+      <Banner/>
     </>
   )
 }
