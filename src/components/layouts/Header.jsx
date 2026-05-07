@@ -1,6 +1,7 @@
 import Logo from "/src/assets/logo.png"
 import Container from "../Container";
 import Image from "../Image"
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
               <li>Home</li>
               <li>Tours</li>
               <li>Booking</li>
-              <li>Pages</li>
+              <li><Link to={"/pages"}>Pages</Link></li>
               <li>Features</li>
               <li>Blog</li>
             </ul>
